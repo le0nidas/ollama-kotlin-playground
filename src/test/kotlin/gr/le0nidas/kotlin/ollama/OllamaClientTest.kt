@@ -4,8 +4,8 @@ import gr.le0nidas.kotlin.ollama.engine.Engine
 import gr.le0nidas.kotlin.ollama.request.GenerateRequest
 import gr.le0nidas.kotlin.ollama.request.parameter.JsonFormat
 import gr.le0nidas.kotlin.ollama.request.parameter.JsonSchemaFormat
-import gr.leonidas.gr.le0nidas.kotlin.ollama.request.parameters.Model
-import gr.leonidas.gr.le0nidas.kotlin.ollama.request.parameters.Prompt
+import gr.le0nidas.kotlin.ollama.request.parameter.Model
+import gr.le0nidas.kotlin.ollama.request.parameter.Prompt
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
 import org.junit.jupiter.api.Test

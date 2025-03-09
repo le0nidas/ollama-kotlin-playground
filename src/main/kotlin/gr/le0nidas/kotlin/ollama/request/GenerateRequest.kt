@@ -2,8 +2,8 @@ package gr.le0nidas.kotlin.ollama.request
 
 import gr.le0nidas.kotlin.ollama.request.parameter.Format
 import gr.le0nidas.kotlin.ollama.request.parameter.TextFormat
-import gr.leonidas.gr.le0nidas.kotlin.ollama.request.parameters.Model
-import gr.leonidas.gr.le0nidas.kotlin.ollama.request.parameters.Prompt
+import gr.le0nidas.kotlin.ollama.request.parameter.Model
+import gr.le0nidas.kotlin.ollama.request.parameter.Prompt
 
 class GenerateRequest private constructor(
     val model: Model,

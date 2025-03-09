@@ -16,7 +16,7 @@ The package for this library is: `https://maven.pkg.github.com/le0nidas/ollama-k
 
 Add the dependency to your `build.gradle`:
 ```gradle
-implementation("gr.le0nidas:ollama-kotlin-playground:0.0.1")
+implementation("gr.le0nidas:ollama-kotlin-playground:0.0.2")
 ```
 
 ## Usage

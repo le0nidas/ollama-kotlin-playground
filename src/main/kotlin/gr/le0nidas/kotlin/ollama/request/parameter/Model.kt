@@ -1,4 +1,4 @@
-package gr.leonidas.gr.le0nidas.kotlin.ollama.request.parameters
+package gr.le0nidas.kotlin.ollama.request.parameter
 
 @JvmInline
 value class Model(val value: String) {
