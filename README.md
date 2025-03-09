@@ -9,6 +9,16 @@ This is an extremely simple library that helps me play around with ollama.
 1. Download and install [ollama](https://ollama.com/download)
 2. Run the server `ollama serve`
 
+## Install
+Follow [this guide](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package) to setup your project using published packages.
+
+The package for this library is: `https://maven.pkg.github.com/le0nidas/ollama-kotlin-playground`
+
+Add the dependency to your `build.gradle`:
+```gradle
+implementation("gr.le0nidas:ollama-kotlin-playground:0.0.1")
+```
+
 ## Usage
 ```kotlin
 fun main() {
